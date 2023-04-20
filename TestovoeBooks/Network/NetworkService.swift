@@ -31,35 +31,6 @@ enum NetworkError: Error, CustomStringConvertible {
 }
 
 actor NetworkService {
-    var settings = SearchSettings()
-    var timer: Timer?
-    var searchCompletion: ((BookObject) -> Void)?
-    
-    func importJson(url: String, completion: @escaping (BookObject) -> Void) {
-        let url = URL(string: url)
-        guard let jsonUrl = url else {
-            return
-        }
-        URLSession.shared.dataTask(with: jsonUrl) { data, response, error in
-            guard let data = data else {
-                return
-            }
-            do {
-                let book = try JSONDecoder().decode(BookObject.self, from: data)
-                print(book)
-                DispatchQueue.main.async {
-                    completion(book)
-                }
-            } catch {
-                print(NetworkError.wrongJson("Error"))
-            }
-        }.resume()
-    }
-    
-    func getURL(url: String) -> String {
-        let url = url.replacingOccurrences(of: " ", with: "+")
-        return url
-    }
     
     func fetchBooks(by keyword: String) async throws -> BookObject {
         guard !keyword.isEmpty else {
