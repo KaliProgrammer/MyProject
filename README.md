@@ -10,7 +10,7 @@ UI: UITableView, UIStackView, UISearchController
 
 
 
-Just start to search for a book by typing its name or the name of the author.
+Just start to search for a book by typing its name or the name of the author in English.
 
 
 <img width="343" alt="Screenshot 2023-04-20 at 15 27 01" src="https://user-images.githubusercontent.com/100012767/233365229-e777eab2-0e98-42f4-bb51-d77d2910edad.png">
