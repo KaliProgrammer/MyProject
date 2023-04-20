@@ -9,23 +9,42 @@
 /* Begin PBXBuildFile section */
 		D02EDD9A29EF1CD800A41291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EDD9929EF1CD800A41291 /* AppDelegate.swift */; };
 		D02EDD9C29EF1CD800A41291 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EDD9B29EF1CD800A41291 /* SceneDelegate.swift */; };
-		D02EDD9E29EF1CD800A41291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EDD9D29EF1CD800A41291 /* ViewController.swift */; };
-		D02EDDA129EF1CD800A41291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02EDD9F29EF1CD800A41291 /* Main.storyboard */; };
+		D02EDD9E29EF1CD800A41291 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EDD9D29EF1CD800A41291 /* SearchViewController.swift */; };
 		D02EDDA429EF1CD800A41291 /* TestovoeBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D02EDDA229EF1CD800A41291 /* TestovoeBooks.xcdatamodeld */; };
 		D02EDDA629EF1CD800A41291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02EDDA529EF1CD800A41291 /* Assets.xcassets */; };
 		D02EDDA929EF1CD800A41291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02EDDA729EF1CD800A41291 /* LaunchScreen.storyboard */; };
+		D02EDDB129EF1DE300A41291 /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EDDB029EF1DE300A41291 /* ReuseIdentifiable.swift */; };
+		D02EDDB429EF1E1000A41291 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EDDB329EF1E1000A41291 /* Cell.swift */; };
+		D02EDDB729EF20AC00A41291 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D02EDDB629EF20AC00A41291 /* SnapKit */; };
+		D02EDDBD29EF291900A41291 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EDDBC29EF291900A41291 /* BookModel.swift */; };
+		D02EDDBF29EF298400A41291 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EDDBE29EF298400A41291 /* NetworkService.swift */; };
+		D02EDDC529EF337A00A41291 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D02EDDC429EF337A00A41291 /* SDWebImage */; };
+		D02EDDC729EF337A00A41291 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D02EDDC629EF337A00A41291 /* SDWebImageMapKit */; };
+		D0C2E06129F17CFB00175148 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2E06029F17CFB00175148 /* String+Extensions.swift */; };
+		D0C2E06429F1810200175148 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2E06329F1810200175148 /* BookView.swift */; };
+		D0C2E06629F1826B00175148 /* BookDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2E06529F1826B00175148 /* BookDescriptionViewController.swift */; };
+		D0C2E06829F183AD00175148 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2E06729F183AD00175148 /* BookViewModel.swift */; };
+		D0C2E06E29F1CB9600175148 /* SearchViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2E06D29F1CB9600175148 /* SearchViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D02EDD9629EF1CD800A41291 /* TestovoeBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestovoeBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02EDD9929EF1CD800A41291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D02EDD9B29EF1CD800A41291 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D02EDD9D29EF1CD800A41291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D02EDDA029EF1CD800A41291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D02EDD9D29EF1CD800A41291 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D02EDDA329EF1CD800A41291 /* TestovoeBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestovoeBooks.xcdatamodel; sourceTree = "<group>"; };
 		D02EDDA529EF1CD800A41291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02EDDA829EF1CD800A41291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D02EDDAA29EF1CD800A41291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02EDDB029EF1DE300A41291 /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		D02EDDB329EF1E1000A41291 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		D02EDDBC29EF291900A41291 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		D02EDDBE29EF298400A41291 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D0C2E06029F17CFB00175148 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		D0C2E06329F1810200175148 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		D0C2E06529F1826B00175148 /* BookDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDescriptionViewController.swift; sourceTree = "<group>"; };
+		D0C2E06729F183AD00175148 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		D0C2E06D29F1CB9600175148 /* SearchViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02EDDC529EF337A00A41291 /* SDWebImage in Frameworks */,
+				D02EDDC729EF337A00A41291 /* SDWebImageMapKit in Frameworks */,
+				D02EDDB729EF20AC00A41291 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +80,80 @@
 		D02EDD9829EF1CD800A41291 /* TestovoeBooks */ = {
 			isa = PBXGroup;
 			children = (
-				D02EDD9929EF1CD800A41291 /* AppDelegate.swift */,
-				D02EDD9B29EF1CD800A41291 /* SceneDelegate.swift */,
-				D02EDD9D29EF1CD800A41291 /* ViewController.swift */,
-				D02EDD9F29EF1CD800A41291 /* Main.storyboard */,
-				D02EDDA529EF1CD800A41291 /* Assets.xcassets */,
-				D02EDDA729EF1CD800A41291 /* LaunchScreen.storyboard */,
+				D02EDDB829EF288F00A41291 /* Extensions */,
+				D0C2E06229F180F500175148 /* Views */,
+				D02EDDC029EF2BE400A41291 /* ViewModel */,
+				D02EDDBB29EF28D500A41291 /* Network */,
+				D02EDDBA29EF28B600A41291 /* Controllers */,
+				D02EDDB929EF289B00A41291 /* Cell */,
+				D02EDDB229EF1DE900A41291 /* Supporting */,
 				D02EDDAA29EF1CD800A41291 /* Info.plist */,
 				D02EDDA229EF1CD800A41291 /* TestovoeBooks.xcdatamodeld */,
 			);
 			path = TestovoeBooks;
+			sourceTree = "<group>";
+		};
+		D02EDDB229EF1DE900A41291 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				D02EDD9929EF1CD800A41291 /* AppDelegate.swift */,
+				D02EDD9B29EF1CD800A41291 /* SceneDelegate.swift */,
+				D02EDDA529EF1CD800A41291 /* Assets.xcassets */,
+				D02EDDA729EF1CD800A41291 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		D02EDDB829EF288F00A41291 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D02EDDB029EF1DE300A41291 /* ReuseIdentifiable.swift */,
+				D0C2E06029F17CFB00175148 /* String+Extensions.swift */,
+				D0C2E06D29F1CB9600175148 /* SearchViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D02EDDB929EF289B00A41291 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D02EDDB329EF1E1000A41291 /* Cell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D02EDDBA29EF28B600A41291 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D02EDD9D29EF1CD800A41291 /* SearchViewController.swift */,
+				D0C2E06529F1826B00175148 /* BookDescriptionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D02EDDBB29EF28D500A41291 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D02EDDBC29EF291900A41291 /* BookModel.swift */,
+				D02EDDBE29EF298400A41291 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D02EDDC029EF2BE400A41291 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0C2E06729F183AD00175148 /* BookViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0C2E06229F180F500175148 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0C2E06329F1810200175148 /* BookView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +172,11 @@
 			dependencies = (
 			);
 			name = TestovoeBooks;
+			packageProductDependencies = (
+				D02EDDB629EF20AC00A41291 /* SnapKit */,
+				D02EDDC429EF337A00A41291 /* SDWebImage */,
+				D02EDDC629EF337A00A41291 /* SDWebImageMapKit */,
+			);
 			productName = TestovoeBooks;
 			productReference = D02EDD9629EF1CD800A41291 /* TestovoeBooks.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +205,10 @@
 				Base,
 			);
 			mainGroup = D02EDD8D29EF1CD800A41291;
+			packageReferences = (
+				D02EDDB529EF20AC00A41291 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D02EDDC329EF337A00A41291 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = D02EDD9729EF1CD800A41291 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +225,6 @@
 			files = (
 				D02EDDA929EF1CD800A41291 /* LaunchScreen.storyboard in Resources */,
 				D02EDDA629EF1CD800A41291 /* Assets.xcassets in Resources */,
-				D02EDDA129EF1CD800A41291 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +235,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02EDD9E29EF1CD800A41291 /* ViewController.swift in Sources */,
+				D02EDD9E29EF1CD800A41291 /* SearchViewController.swift in Sources */,
+				D0C2E06829F183AD00175148 /* BookViewModel.swift in Sources */,
+				D0C2E06E29F1CB9600175148 /* SearchViewController+Extension.swift in Sources */,
+				D0C2E06129F17CFB00175148 /* String+Extensions.swift in Sources */,
+				D02EDDB129EF1DE300A41291 /* ReuseIdentifiable.swift in Sources */,
+				D0C2E06429F1810200175148 /* BookView.swift in Sources */,
+				D02EDDBF29EF298400A41291 /* NetworkService.swift in Sources */,
 				D02EDDA429EF1CD800A41291 /* TestovoeBooks.xcdatamodeld in Sources */,
+				D0C2E06629F1826B00175148 /* BookDescriptionViewController.swift in Sources */,
 				D02EDD9A29EF1CD800A41291 /* AppDelegate.swift in Sources */,
 				D02EDD9C29EF1CD800A41291 /* SceneDelegate.swift in Sources */,
+				D02EDDB429EF1E1000A41291 /* Cell.swift in Sources */,
+				D02EDDBD29EF291900A41291 /* BookModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D02EDD9F29EF1CD800A41291 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D02EDDA029EF1CD800A41291 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D02EDDA729EF1CD800A41291 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,9 +389,9 @@
 				DEVELOPMENT_TEAM = 3GM562BC5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestovoeBooks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,6 +401,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Junior.TestovoeBooks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,9 +420,9 @@
 				DEVELOPMENT_TEAM = 3GM562BC5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestovoeBooks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,6 +432,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Junior.TestovoeBooks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -362,6 +463,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D02EDDB529EF20AC00A41291 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		D02EDDC329EF337A00A41291 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D02EDDB629EF20AC00A41291 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D02EDDB529EF20AC00A41291 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D02EDDC429EF337A00A41291 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D02EDDC329EF337A00A41291 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		D02EDDC629EF337A00A41291 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D02EDDC329EF337A00A41291 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D02EDDA229EF1CD800A41291 /* TestovoeBooks.xcdatamodeld */ = {
